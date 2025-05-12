@@ -1,0 +1,10 @@
+name = "fp-lean-exo"
+version = "0.1.0"
+defaultTargets = ["fp-lean-exo"]
+
+[[lean_lib]]
+name = "FpLeanExo"
+
+[[lean_exe]]
+name = "fp-lean-exo"
+root = "Main"
